@@ -2,7 +2,11 @@
 import math
 
 def Prime(num):
+<<<<<<< HEAD
     if num<2:
+=======
+    if num==1:
+>>>>>>> master
         return False #소수가아니야
     n=int(math.sqrt(num))
     for i in range(2,n+1):
